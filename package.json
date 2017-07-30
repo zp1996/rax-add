@@ -1,0 +1,22 @@
+{
+  "name": "rax-add",
+  "version": "1.0.0",
+  "description": "\"添加rax组件\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "rax-add": "./bin/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zp1996/rax-add.git"
+  },
+  "author": "zp1996",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zp1996/rax-add/issues"
+  },
+  "homepage": "https://github.com/zp1996/rax-add#readme"
+}
