@@ -1,6 +1,6 @@
 {
   "name": "rax-add",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "\"添加rax组件\"",
   "main": "index.js",
   "scripts": {
@@ -18,5 +18,9 @@
   "bugs": {
     "url": "https://github.com/zp1996/rax-add/issues"
   },
-  "homepage": "https://github.com/zp1996/rax-add#readme"
+  "homepage": "https://github.com/zp1996/rax-add#readme",
+  "dependencies": {
+    "colors": "^1.1.2",
+    "optimist": "^0.6.1"
+  }
 }
