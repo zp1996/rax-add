@@ -1,6 +1,6 @@
 {
   "name": "rax-add",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "\"添加rax组件\"",
   "main": "index.js",
   "scripts": {
