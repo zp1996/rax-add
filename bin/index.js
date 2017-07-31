@@ -3,7 +3,7 @@
 const fs = require('fs'),
     colors = require('colors'),
     { argv: { _ : { '0': name } } } = require('optimist'),
-    dir = `${process.cwd()}/bin`;
+    dir = `${process.cwd()}/src`;
 
 const showErr = (msg) => {
     console.log(msg.red);
@@ -23,6 +23,6 @@ fs.stat(dir, (err, stats) => {
         if (rename) {
             showErr(`you already had a page named ${name}`);
         }
-        // 添加组件
+        require('../lib/index')(name, dir);
     });
 });
